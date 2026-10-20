@@ -1,2 +1,2 @@
-# MASL - Research Group
+# MAS - Research Group
 Andrea Biondini, Pietro Villa, Younes Rabeh
