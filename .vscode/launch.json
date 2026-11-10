@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Repast4Py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/repast-env/main.py",
+            "python": "${workspaceFolder}/repast-env/.venv/bin/python",
+            "cwd": "${workspaceFolder}/repast-env",
+            "console": "integratedTerminal",
+            "env": {
+                "LD_LIBRARY_PATH": "/usr/lib64/mpich/lib:${env:LD_LIBRARY_PATH}"
+            }
+        }
+    ]
+}
